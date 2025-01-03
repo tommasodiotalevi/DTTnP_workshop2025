@@ -1,0 +1,288 @@
+{
+    "pairMass":
+    {
+        "title": "tag and probe pair mass;mass [GeV];#entries/GeV",
+        "nbins": 100,
+        "xlow": 50.0,
+        "xhigh": 150.0 
+    },
+    "pairDz":
+    {
+        "title": "tag and probe pair dZ;dZ(tag,probe);#entries/0.2",
+        "nbins": 100,
+        "xlow": -5.0,
+        "xhigh": 5.0
+    },
+    "probePtVsPairDr":
+    {
+        "title": "probe p_{T} vs tag and probe dR;probe p_{T} [GeV];tag and probe dR",
+        "nbinsx": 100,
+        "xlow": 0.0,
+        "xhigh": 1000.0,
+        "nbinsy": 100,
+        "ylow": 0.0,
+        "yhigh": 6.2831853072 
+    },
+    "probeNPixelHits":
+    {
+        "title": "probe # pixel hits;# pixel hits;#entries",
+        "nbins": 10,
+        "xlow": -0.5,
+        "xhigh": 9.5
+    },
+    "probeNTrkLayers":
+    {
+        "title": "probe # tracker layers;# tracker layers;#entries",
+        "nbins": 30,
+        "xlow": -0.5,
+        "xhigh": 29.5
+    },
+    "probeNRPCLayers":
+    {
+        "title": "probe # RPC layers;# tracker layers;#entries",
+        "nbins": 30,
+        "xlow": -0.5,
+        "xhigh": 29.5
+    },
+    "probeReliso":
+    {
+        "title": "probe relative PF iso (#Delta#beta corrected);isolation;#entries",
+        "nbins": 100,
+        "xlow": 0.0,
+        "xhigh": 5.0
+    },
+    "probeOrigAlgo":
+    {
+        "title": "probe original algo;original algo;#entries",
+        "nbins": 20,
+        "xlow": -0.5,
+        "xhigh": 19.5
+    },
+
+    
+    "nOtherMatchedChVsEta":
+    {
+        "title": "# of matched stations other than the one under investigation",
+        "nbinsx": 96,
+        "xlow": -1.2,
+        "xhigh": 1.2,
+        "nbinsy": 5,
+        "ylow": -0.5,
+        "yhigh": 4.5
+    },
+    "effSecVsWhAllOne":
+    {
+        "title": "segment efficiency sector vs wheel;sector;wheel",
+        "nbinsx": 24,
+        "xlow": 0.5,
+        "xhigh": 12.5,
+        "nbinsy": 10,
+        "ylow": -2.5,
+        "yhigh": 2.5
+    },
+    "effSecVsWhAllTwo":
+    {
+        "title": "segment efficiency sector vs wheel;wheel/station;sector;",
+        "nbinsx": 20,
+        "xlow": 1.0,
+        "xhigh": 21.0,
+        "nbinsy": 12,
+        "ylow": 1.0,
+        "yhigh": 13.0
+    },
+    "effThSecVsWhAllTwo":
+    {
+        "title": "segment efficiency sector vs wheel;wheel/station;sector;",
+        "nbinsx": 20,
+        "xlow": 1.0,
+        "xhigh": 21.0,
+        "nbinsy": 12,
+        "ylow": 1.0,
+        "yhigh": 13.0
+    },
+    "effChambAll":
+    {
+        "title": "segment efficiency chamber summary;efficiency;# chambers",
+        "nbins": 75,
+        "xlow": 0.9,
+        "xhigh": 1.05
+    },
+    "t0ProfileAll":
+    {
+        "title": "<t0> chamber by chamber; <t0>;# chambers",
+        "nbins": 50,
+        "xlow": -5.0,
+        "xhigh": 5.0
+    },
+    "probePt":
+    {
+        "title": "probe p_{T};p_{T} [GeV];#entries/GeV",
+        "nbins": 200,
+        "xlow": 0.0,
+        "xhigh": 200.0
+    }
+    ,
+    "probeEta":
+    {
+        "title": "probe #eta;#eta;#entries",
+        "nbins": 56,
+        "xlow": -1.2,
+        "xhigh": 1.2
+    },
+    "probePhi":
+    {
+        "title": "probe #phi;#phi;#entries/(pi*90)",
+        "nbins": 180,
+        "xlow": -3.14159265359,
+        "xhigh": 3.14159265359
+    },
+    "probeDrVsPt":
+    {
+        "title": "dR vs p_{T};p_{T} [GeV];dR",
+        "nbinsx": 200,
+        "xlow": 0.0,
+        "xhigh": 200.0,
+        "nbinsy": 50,
+        "ylow": 0.0,
+        "yhigh": 0.5
+    },
+    "probeDxVsPt":
+    {
+        "title": "dX vs p_{T};p_{T} [GeV];dX",
+        "nbinsx": 200,
+        "xlow": 0.0,
+        "xhigh": 200.0,
+        "nbinsy": 50,
+        "ylow": 0.0,
+        "yhigh": 50.0
+    },
+    "probeDyVsPt":
+    {
+        "title": "dY vs p_{T};p_{T} [GeV];dY",
+        "nbinsx": 200,
+        "xlow": 0.0,
+        "xhigh": 200.0,
+        "nbinsy": 50,
+        "ylow": 0.0,
+        "yhigh": 50.0
+    },
+    "t0":
+    {
+        "title": "t0;wheel and sector;t0 [ns]",
+        "nbinsx": 70,
+        "xlow": 0.5,
+        "xhigh": 70.5,
+        "nbinsy": 50,
+        "ylow": -12.5,
+        "yhigh": 12.5
+    },
+    "t0Profile":
+    {
+        "title": "t0 profile;wheel and sector;t0 [ns]",
+        "nbinsx": 70,
+        "xlow": 0.5,
+        "xhigh": 70.5,
+        "ylow": -12.5,
+        "yhigh": 12.5
+    },
+    "effAccVsEta":
+    {
+        "title": "segment efficiency x acceptance vs #eta;muon #eta;Efficiency",
+        "nbins": 48,
+        "xlow": -1.2,
+        "xhigh": 1.2
+    },
+    "effAccPhiVsEtaPlus":
+    {
+        "title": "segment efficiency x acceptance #phi vs #eta for mu^{+};muon #phi;muon #eta",
+        "nbinsx": 96,
+        "xlow": -3.14159265359,
+        "xhigh": 3.14159265359,
+        "nbinsy": 96,
+        "ylow": -1.4,
+        "yhigh": 1.4
+    },
+    "effAccPhiVsEtaMinus":
+    {
+        "title": "segment efficiency x acceptance #phi vs #eta for mu^{-};muon #phi;muon #eta",
+        "nbinsx": 96,
+        "xlow": -3.14159265359,
+        "xhigh": 3.14159265359,
+        "nbinsy": 96,
+        "ylow": -1.4,
+        "yhigh": 1.4
+    },
+    "effAccVsPhiPlus":
+    {
+        "title": "segment efficiency x acceptance vs #phi for mu^{+};muon #phi;Efficiency",
+        "nbins": 96,
+        "xlow": -3.14159265359,
+        "xhigh": 3.14159265359
+    },
+    "effAccVsPhiMinus":
+    {
+        "title": "segment efficiency x acceptance vs #phi for mu^{-};muon #phi;Efficiency",
+        "nbins": 96,
+        "xlow": -3.14159265359,
+        "xhigh": 3.14159265359
+    },
+    "effAccVsPt":
+    {
+        "title": "segment efficiency x acceptance vs p_{T};muon p_{T};Efficiency",
+        "nbins": 21,
+        "ptBins": [0.0,  5.0,  10.0,  15.0,  20.0,  25.0,  30.0,  35.0,  40.0,  50.0,  60.0, 
+        70.0, 90.0, 110.0, 130.0, 150.0, 200.0, 250.0, 300.0, 400.0, 500.0, 750.0]
+    },
+    "effVsPt":
+    {
+        "title": "segment efficiency vs p_{T};muon p_{T};Efficiency",
+        "nbins": 21,
+        "ptBins": [0.0,  5.0,  10.0,  15.0,  20.0,  25.0,  30.0,  35.0,  40.0,  50.0,  60.0, 
+        70.0, 90.0, 110.0, 130.0, 150.0, 200.0, 250.0, 300.0, 400.0, 500.0, 750.0]
+    },
+    "effVsLumi":
+    {
+        "title": "segment efficiency vs inst. lumi.;inst. lumi.;Efficiency",
+        "nbins": 50,
+        "xlow": 0.0,
+        "xhigh": 20000.0
+    },
+    "effVsVtx":
+    {
+        "title": "segment efficiency vs # of reco. vtx.;# of reco. vtx.;Efficiency",
+        "nbins": 100,
+        "xlow": 0.0,
+        "xhigh": 100.0
+    },
+    "effVsRun":
+    {
+        "title": "segment efficiency vs run number;run number;Efficiency",
+        "nbins": "",
+        "xlow": "",
+        "xhigh": ""
+    },
+    "effVsNHitsPhi":
+    {
+        "title": "segment efficiency vs # phi hits.; # phi hits;Efficiency",
+        "nbins": 8,
+        "xlow": 0.5,
+        "xhigh": 8.5
+    },
+    "effSecVsWh":
+    {
+        "title": "segment efficiency sector vs wheel;sector;wheel",
+        "nbinsx": 14,
+        "xlow": 1.0,
+        "xhigh": 15.0,
+        "nbinsy": 5,
+        "ylow": -2.0,
+        "yhigh": 3.0
+    },
+    "effChamb":
+    {
+        "title": "segment efficiency chamber summary;efficiency;# chambers",
+        "nbins": 50,
+        "xlow": 0.9,
+        "xhigh": 1.0
+    }
+}
